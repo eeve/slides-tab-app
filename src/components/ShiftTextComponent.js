@@ -73,6 +73,7 @@ class ShiftTextComponent extends Component {
         }
         return <div style={{
             userSelect: 'none',
+            letterSpacing: '.5rem',
             textAlign: this.props.textAlign,
             fontSize: this.props.fontSize,
             color: this.props.fontColor

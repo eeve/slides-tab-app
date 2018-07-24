@@ -66,9 +66,9 @@
 
 .setting-nav > a {
     text-decoration: none;
-    padding: 8px 32px 8px 16px;
+    padding: 8px 16px 8px 16px;
     margin-bottom: 16px;
-    margin-right: 8px;
+    margin-right: 16px;
     font-size: 1rem;
     white-space: pre;
     font-weight: 500;
@@ -76,7 +76,7 @@
 
 @media (min-width: 768px) {
     .setting-nav > a:hover {
-        border-radius: 8px;
+        border-radius: 4px;
         background-color: rgba(0, 0, 0, 0.1);
     }
 }
@@ -89,7 +89,7 @@
 }
 
 .setting-nav > .selected {
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -109,11 +109,11 @@
 
 .setting-input {
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 4px;
     border-width: 1px;
     border-style: solid;
     padding: 4px;
-    line-height: 150%;
+    line-height: 1.2rem;
 }
 
 .setting-input:focus {
@@ -121,8 +121,8 @@
 }
 
 .slogan-textarea {
-    font-size: 1.2rem;
-    border-radius: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
@@ -153,7 +153,7 @@
 }
 
 .setting-select {
-    font-size: 100%;
+    font-size: 1rem;
     border-radius: 4px;
     font-family: sans-serif;
     line-height: 1.2rem;
@@ -161,7 +161,7 @@
     padding: 2px;
     display: inline-block;
     text-align: start;
-    height: auto;
+    height: 32px;
     border-color: rgb(169, 169, 169);
 }
 

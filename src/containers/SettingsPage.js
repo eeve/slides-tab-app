@@ -54,7 +54,7 @@ class AboutTab extends Component {
             {text =>
                 <PreferenceGroup title={text}>
                     <PreferenceItem>
-                        <div><span role={'img'} aria-label={'logo'}>💼</span> <FormattedMessage id={'settings.about.version'}></FormattedMessage> {packageJson.version}</div>
+                        <div><FormattedMessage id={'settings.about.version'}></FormattedMessage> {packageJson.version}</div>
                     </PreferenceItem>
                     <PreferenceItem>
                         <div>

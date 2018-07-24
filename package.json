@@ -2,6 +2,7 @@
   "name": "slides-tab-app",
   "description": "Show custom slides on the browser tab!",
   "version": "0.0.1",
+  "homepage" : "http://tab.eeve.me/",
   "private": true,
   "repository" :{
     "type" : "git",
